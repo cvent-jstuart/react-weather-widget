@@ -45,7 +45,7 @@ var config = function(){
     output: {
       path: path.join(__dirname, "dist"),
       filename: "assets/js/[name].min.js",
-      publicPath: "/assets"
+      publicPath: "../../"
     },
 
     devServer: {
@@ -85,6 +85,14 @@ var config = function(){
           exclude: /(node_modules|bower_components)/,
           loader: "babel-loader",
           query: jsQueries
+        },
+        {
+          test: /\.(png|jpg|jpeg|gif|svg)$/,
+          loader: 'file?name=assets/content/img/[name].[ext]'
+        },
+        {
+          test: /\.(woff|woff2|ttf|eot)$/,
+          loader: 'file?name=assets/content/fonts/[name].[ext]'
         }
       ]
 
