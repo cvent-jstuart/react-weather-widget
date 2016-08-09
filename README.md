@@ -1,6 +1,4 @@
-<snippet>
-  <content><![CDATA[
-# ${1:React Weather Widget with Redux}
+# React Weather Widget with Redux
 ## Installation
 For Dev:  clone https://github.com/cvent-jstuart/react-weather-widget.git & run npm install
 ## Usage
@@ -37,7 +35,3 @@ Adjust layout.less height styles
 Initial Commit
 ## Credits
 Jason Stuart
-
-]]></content>
-  <tabTrigger>readme</tabTrigger>
-</snippet>
