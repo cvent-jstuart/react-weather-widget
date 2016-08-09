@@ -9,6 +9,7 @@ Widget can be viewed directly from ./dist/index.html
 3. Commit your changes: `git commit -am 'Add some feature'`
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request
+
 ## History
 Added new weather-widget-preview, Removed widget-preview
 
