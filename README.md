@@ -1,7 +1,6 @@
 <snippet>
   <content><![CDATA[
-# ${1:Project Name}
-React Weather Widget with Redux
+# ${1:React Weather Widget with Redux}
 ## Installation
 For Dev:  clone https://github.com/cvent-jstuart/react-weather-widget.git & run npm install
 ## Usage
